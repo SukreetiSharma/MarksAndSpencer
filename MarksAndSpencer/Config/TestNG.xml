@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Cases" verbose="1" >
+    <test name="Verify women new in is clickable">
+        <parameter name="testRunId" value="TCTC-1"/>
+        <classes>
+            <class name="MarksAndSpencer.Test.TestToVerifyWomenNewIn"/>
+        </classes>
+    </test>
+    <test name="Verify user is able to Search">
+        <parameter name="testRunId" value="TCTC-2"/>
+        <classes>
+            <class name="MarksAndSpencer.Test.TestToVerifyAbleToSearch"/>
+        </classes>
+    </test>
+</suite>
